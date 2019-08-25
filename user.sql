@@ -3,8 +3,8 @@
 -- Host: localhost    Database: youtube
 -- ------------------------------------------------------
 -- Server version	5.6.44
-CREATE DATABASE youtube;
-USE youtube;
+CREATE DATABASE youtube;
+use youtube;
 
 --
 -- Table structure for table `users`
