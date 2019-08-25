@@ -3,13 +3,14 @@
 -- Host: localhost    Database: youtube
 -- ------------------------------------------------------
 -- Server version	5.6.44
-
+CREATE DATABASE youtube;
+USE youtube;
 
 --
 -- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
+
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
@@ -31,7 +32,6 @@ INSERT INTO `users` VALUES (4,'test','$2y$10$aQRhsrcZ/2r19r4x4PhNHeYg6qUFcMX4DrK
 -- Table structure for table `youtubes`
 --
 
-DROP TABLE IF EXISTS `youtubes`;
 CREATE TABLE `youtubes` (
   `name` varchar(255) NOT NULL,
   `url` varchar(255) NOT NULL,
