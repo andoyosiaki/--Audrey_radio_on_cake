@@ -6,7 +6,7 @@
 
 アプリ名
 ====
-**<a href="https://2.kagome.xyz/cake/my_app_name/">「オードリー文字起こしまとめ</a> CakePHP.ver**
+**<a href="https://2.kagome.xyz/cake/my_app_name/">「オードリー文字起こしまとめ」</a> CakePHP.ver**
 
 ## 簡単な説明
 <a href="https://3.kagome.xyz" target=”_blank”>オードリー文字起こしまとめ</a>をCakePHPで作り変えた物です。
