@@ -1,54 +1,44 @@
-# CakePHP Application Skeleton
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+このアプリはPHPを独学で学習している私がアウトプットの１つとして作成したもので、セキュリティなどに問題があるかもしれません。  
+もし実際にアプリを動作させるような場合はローカル環境で動作させてください。
+あと、もし眼に余るようなトンデモナイ記述をしていたらそっと<a href="https://twitter.com/float_top">ツイッター</a>のDMにでも連絡いただければ幸いです。(；´Д`)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+アプリ名
+====
+**<a href="https://2.kagome.xyz/cake/my_app_name/">「オードリー文字起こしまとめ</a> CakePHP.ver**
 
-## Installation
+## 簡単な説明
+<a href="https://3.kagome.xyz" target=”_blank”>オードリー文字起こしまとめ</a>をCakePHPで作り変えた物です。
+HTMLやCSSは前作の物を使用しているので、デザインはほぼ同じですが、bootstrap4は今回より未使用で作成していきます。
+HTML内のbootstrap特有のクラス名などはそのまま残してあります。
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+## 機能
+1. コンテンツ投稿機能（管理ユーザーのみ)
+1. コンテンツ一覧表示機能
+1. コンテンツ詳細表示機能
+1. ページング機能 new!!
 
-If Composer is installed globally, run
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+## 開発環境
+使用言語・データーベース
+* PHP
+* HTML
+* CSS
+* MYSQL  
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+使用ツール・ライブラリ
+* CakePHP
+* vagrant
+* Atom Editor
+* fontawesome   
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+## 作った感想と今後の課題  
 
-```bash
-bin/cake server -p 8765
-```
+CakePHPを使ってみての感想ですが、laravelに比べてディレクトリ構成が分かりやすく、飛びたいフォルダにすぐたどり着けて割とストレスなく作業できました、またデバッグキットも個人的には見やすく感じました。      
+前回の機能に追加でページネーション機能を追加して、ログイン機能はauthコンポーネントを使用しました。  
+正直、当たり前なのですが手続き型とまったく違うので、また１から違う言語を学んでるくらい試行錯誤しながらの作成となり、もう少し早い段階でフレームワークの学習に取り掛かった方が良かったのかな、とも思いました。  
 
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
-# --Audrey_radio_on_cake
-# --Audrey_radio_on_cake
-# --Audrey_radio_on_cake
+また仮想環境は今まではMAMPを使っていましたが、今回よりvagrantを使用して開発して行きます。  
+mysqlも今まではphpmyadminを使用して視覚的に分かりやすかったのですが、今回よりターミナルでガチャガチャキーボード打ってやっていきます。
