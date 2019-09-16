@@ -7,6 +7,7 @@
 アプリ名
 ====
 **<a href="https://2.kagome.xyz/cake/my_app_name/">「オードリー文字起こしまとめ」</a> CakePHP.ver**
+<img src="https://user-images.githubusercontent.com/52596476/64945064-c3a63380-d8aa-11e9-8f11-e3c201a1fb01.png" width=1000>
 
 ## 簡単な説明
 <a href="https://3.kagome.xyz" target=”_blank”>オードリー文字起こしまとめ</a>をCakePHPで作り変えた物です。
